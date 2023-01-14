@@ -1,24 +1,24 @@
 # ProjetoGame
-Formulário construído em java com o intuito de treinar técnicas envolvendo mysql.
+Formulário construído em Java com o intuito de treinar técnicas envolvendo mysql.
 
 
 # Funções
 
 ## As funções nesse contidas no formulário são:
 
--Inserir dados a tabela;
+-Inserir;
 
--Consultar dados a tabela;
+-Consultar;
 
--Excluir dados da tabela;
+-Excluir;
 
 
 
 # Verificações
 
-## O sistemas conta com algumas verficações nessas 3 funções, entre elas:
+## O sistema conta com algumas verificações nessas 3 funções, entre elas:
 
--Conferir a o PK já foi registrada no banco;
+-Conferir se a PK já foi registrada no banco;
 
 -Em caso de consulta, conferir se a PK está no banco;
 
