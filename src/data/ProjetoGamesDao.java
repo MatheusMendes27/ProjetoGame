@@ -75,9 +75,28 @@ public class ProjetoGamesDao {
        {
            return null;
        }
-   }
+    }
+    
+    
+    public boolean atualizar(ProjetoGames pg){
+        try {
+            pstm = con.prepareStatement("UPDATE game_manage SET nome=?, dev=?, plataforma=?, valor=? WHERE codigo = ?");
+            pstm.setString(1, pg.getNome());
+            pstm.setString(2, pg.getDesenvolvedora());
+            pstm.setString(3, pg.getPlataforma());
+            pstm.setDouble(4, pg.getValor());
+            pstm.setString(5, pg.getCodigo());
+            pstm.executeUpdate();
+            return true;
+        } 
+        catch (SQLException ex) {
+          return false;
+        }
+        
+    }
+    
        public boolean excluir (String codigo)
-         {
+     {
        try {
           
            pstm = con.prepareStatement("DELETE FROM game_manage WHERE codigo = ?");
