@@ -12,11 +12,13 @@ Formulário construído em Java com o intuito de treinar técnicas envolvendo my
 
 -Excluir;
 
+-Atualizar;
+
 
 
 # Verificações
 
-## O sistema conta com algumas verificações nessas 3 funções, entre elas:
+## O sistema conta com algumas verificações nessas 4 funções, entre elas:
 
 -Conferir se a PK já foi registrada no banco;
 
